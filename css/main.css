@@ -13,6 +13,7 @@ hr {
 
 #background-dark {
     background-color: #333A42;
+    color: white;
 }
 
 #background-light {
@@ -21,7 +22,6 @@ hr {
 }
 
 .jumbotron {
-    
     background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../res/main.jpg');
     background-position: 0% 25%;
     background-size: cover;
