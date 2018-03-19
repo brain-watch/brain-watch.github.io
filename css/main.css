@@ -28,3 +28,30 @@ hr {
     background-repeat: no-repeat;
     color: white;
 }
+
+.member-frame {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.member-pic {
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.member-name {
+    color: #5b6269;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.member-desc {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #777;
+}
