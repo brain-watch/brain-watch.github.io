@@ -1,3 +1,3 @@
-# brainwatch
+# Brainwatch site
 
-## the website url is here: https://jiyuhan.github.io/brainwatch/index.html
+the website url is here: https://brain-watch.github.io/
