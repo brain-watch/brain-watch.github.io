@@ -29,6 +29,12 @@ hr {
     color: white;
 }
 
+#jumbo {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../res/kids.jpg');
+    background-position-y: 0%;
+    background-size: cover;
+}
+
 .member-frame {
     margin-top: 25px;
     margin-bottom: 25px;
