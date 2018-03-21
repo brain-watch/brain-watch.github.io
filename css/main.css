@@ -56,6 +56,33 @@ hr {
     color: #777;
 }
 
+.demo-frame {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.demo-pic {
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.demo-name {
+    color: #5b6269;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.demo-desc {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #777;
+}
+
 .footah {
     background-color: #5b6269;
 }

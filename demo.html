@@ -40,13 +40,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="demo.html">Demo</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="team.html">Team</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
@@ -54,21 +54,56 @@
     </nav>
     <div id="background-dark" style="margin-top:55px;">
         <div class="jumbotron">
-            <p class="lead">Future interest</p>
-            <h1 class="display-4">Get in touch</h1>
-
+            <p class="lead">Demo</p>
+            <h1 class="display-4">Our Prototype</h1>
             <hr class="my-4">
-            <p>We are actively looking for funding. If you are interested in Brainwatch, let's talk!</p>
+            <p>This shows our progress so far</p>
         </div>
     </div>
     <div id="background-light">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p>Email to: adsflaksdfj@asdf.asdf</p>
-                    <br>
-                    <p>* : we only have our email information right now. We will update this soon.</p>
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center">
+                    <h1>Hardware components we have assembled</h1>
+                    <div class="demo-frame">
+                        <img src="res/proto1.jpg" class="img-fluid rounded demo-pic">
+                        <h2 class="demo-name">Prototype with Arduino No. 1</h2>
+                        <p class="demo-desc">This prototype uses an Arduino Mega 2560 that powers and controlls the LoRa transmitter to send the
+                            location data and concussion data.
+                        </p>
+                    </div>
+                    <div class="demo-frame">
+                        <img src="res/gyro.jpg" class="img-fluid rounded demo-pic">
+                        <h2 class="demo-name">The gyroscope we are using</h2>
+                        <p class="demo-desc">MPU-6050 gyroscope has six degrees of freedom, and we can implement Kalman filter on chip, which
+                            will give us very stable and accurate data.
+                        </p>
+                    </div>
+                    <div class="demo-frame">
+                        <img src="res/lora_chip.jpg" class="img-fluid rounded demo-pic">
+                        <h2 class="demo-name">A picture of LoRa chip</h2>
+                        <p class="demo-desc">LoRaWAN provides a solution for low power, long range, and low bandwidth communication, which is
+                            exactly what we need for our application.
+                        </p>
+                    </div>
+                    <div class="demo-frame">
+                        <img src="res/proto2.jpg" class="img-fluid rounded demo-pic">
+                        <h2 class="demo-name">The second prototype as a transceiver</h2>
+                        <p class="demo-desc">Another Arduino that collects data before we purchase the LoRa Gateway. LoRa Gateway will be used
+                            to communicate with our LoRa chips, and act as a medium to the Internet. It will significantly
+                            improve our signal range.
+                        </p>
+                    </div>
+                    <div class="demo-frame">
+                        <img src="res/pcb.jpg" class="img-fluid rounded demo-pic">
+                        <h2 class="demo-name">PCB we have made</h2>
+                        <p class="demo-desc">We are trying to build our first beta prototype that can actually be installed on a helmet.
+                        </p>
+                    </div>
                 </div>
+
+                <div class="col-md-2"></div>
 
             </div>
         </div>
